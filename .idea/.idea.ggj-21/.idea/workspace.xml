@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Popsicle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Serdar/Popsicle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Serdar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Serdar/Serdar.unity" afterDir="false" />
+    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="move files from personal workspace to team workspace">
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/CM vcam1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/CM vcam1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +16,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Serdar/PopsicleBottomController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Script/FruitFalling.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Serdar/ConfinerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleBottomController.cs" />
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/PlatformGeneration.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nnAehNtptRccvy914modqL77CL" />
@@ -69,8 +69,23 @@
       <workItem from="1612015601309" duration="134000" />
       <workItem from="1612015782112" duration="873000" />
       <workItem from="1612024643145" duration="780000" />
-      <workItem from="1612025480238" duration="7632000" />
+      <workItem from="1612025480238" duration="12303000" />
     </task>
+    <task id="LOCAL-00001" summary="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
+      <created>1612033346798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612033346798</updated>
+    </task>
+    <task id="LOCAL-00002" summary="move files from personal workspace to team workspace">
+      <created>1612038878963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612038878963</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping" />
+    <MESSAGE value="move files from personal workspace to team workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="move files from personal workspace to team workspace" />
   </component>
 </project>

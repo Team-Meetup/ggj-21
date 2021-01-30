@@ -8,14 +8,14 @@
       <e p="Assets" t="Include">
         <e p="Script" t="Include">
           <e p="CollectibleOjects.cs" t="Include" />
-          <e p="FruitFalling.cs" t="Include" />
-          <e p="PlatformGeneration.cs" t="Include" />
-          <e p="RandomSprite.cs" t="Include" />
-        </e>
-        <e p="Serdar" t="Include">
           <e p="ConfinerController.cs" t="Include" />
+          <e p="FruitFalling.cs" t="Include" />
+          <e p="IceCream.cs" t="Include" />
+          <e p="IceGenerator.cs" t="Include" />
+          <e p="PlatformGeneration.cs" t="Include" />
           <e p="PopsicleBottomController.cs" t="Include" />
           <e p="PopsicleController.cs" t="Include" />
+          <e p="RandomSprite.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
