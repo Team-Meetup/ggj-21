@@ -2,20 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformGeneration : MonoBehaviour
+public class IceGenerator : MonoBehaviour
 {
-    public GameObject platformPrefabs;
+    public GameObject icePlatform;
     public int numberofPlatforms = 10;
     public float levelWidth = 3;
     public float minY = .1f;
     public float maxY = 10f;
-
-    public static PlatformGeneration instance;
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +19,7 @@ public class PlatformGeneration : MonoBehaviour
         {
             spawnPosition.y += Random.Range(minY, maxY);
             spawnPosition.x = Random.Range(-levelWidth, levelWidth);
-            Instantiate(platformPrefabs, spawnPosition, Quaternion.identity);
+            Instantiate(icePlatform, spawnPosition, Quaternion.identity);
         }
     }
 }

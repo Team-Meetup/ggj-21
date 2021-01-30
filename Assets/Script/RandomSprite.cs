@@ -12,7 +12,7 @@ public class RandomSprite : MonoBehaviour
 
     private void ShowRandomSprite()
     {
-        int index = UnityEngine.Random.Range(0, 3);
+        int index = UnityEngine.Random.Range(0, 6);
         int childCount = transform.childCount;
 
         for (int i = 0; i < childCount; i++)
