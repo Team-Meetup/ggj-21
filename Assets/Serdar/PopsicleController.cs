@@ -5,7 +5,7 @@ using UnityEngine;
 public class PopsicleController : MonoBehaviour
 {
     private Vector2 input;
-    private Rigidbody2D rigidbody;
+    private Rigidbody2D rb;
     private Vector2 velocity;
     private bool isJumping;
     private bool isFalling;
@@ -18,7 +18,7 @@ public class PopsicleController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         velocity = Vector2.zero;
         isJumping = false;
     }
@@ -29,8 +29,8 @@ public class PopsicleController : MonoBehaviour
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
 
-        Vector2 targetVelocity = new Vector2(input.x * speed, rigidbody.velocity.y);
-        rigidbody.velocity = Vector2.SmoothDamp(rigidbody.velocity, targetVelocity, ref velocity, .3f);
+        Vector2 targetVelocity = new Vector2(input.x * speed, rb.velocity.y);
+        rb.velocity = Vector2.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .3f);
 
         Vector2 jumpVector = new Vector2(input.x, input.y * jumpForce);
 
@@ -46,7 +46,7 @@ public class PopsicleController : MonoBehaviour
             Debug.Log("false");
         }
 
-        rigidbody.AddForce(jumpVector);
+        rb.AddForce(jumpVector);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
