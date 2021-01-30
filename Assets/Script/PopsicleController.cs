@@ -20,7 +20,6 @@ public class PopsicleController : MonoBehaviour
 
     [SerializeField]
     private BoxCollider2D bottomCollider;
-    private Vector3 _bottomColliderMax, _bottomColliderMin;
 
     // Start is called before the first frame update
     void Start()
@@ -29,10 +28,6 @@ public class PopsicleController : MonoBehaviour
         _velocity = Vector2.zero;
         isJumping = false;
         iceCount = 0;
-
-        var bottomColliderBounds = bottomCollider.bounds;
-        _bottomColliderMax = bottomColliderBounds.max;
-        _bottomColliderMin = bottomColliderBounds.min;
     }
 
     // Update is called once per frame
@@ -85,6 +80,15 @@ public class PopsicleController : MonoBehaviour
             //isJumping = false;
         }
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("IceCube"))
+        {
+            Destroy(other.gameObject);
+            iceCount++;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)

@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Popsicle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Serdar/Popsicle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" afterDir="false" />
+    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/ConfinerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/ConfinerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Popsicle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Popsicle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/PopsicleBottomController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/PopsicleBottomController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Serdar/Serdar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Serdar/Serdar.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
@@ -17,13 +25,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Serdar/PopsicleBottomController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Script/FruitFalling.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Serdar/ConfinerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleBottomController.cs" />
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/PlatformGeneration.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nnAehNtptRccvy914modqL77CL" />
@@ -69,8 +78,16 @@
       <workItem from="1612015601309" duration="134000" />
       <workItem from="1612015782112" duration="873000" />
       <workItem from="1612024643145" duration="780000" />
-      <workItem from="1612025480238" duration="7632000" />
+      <workItem from="1612025480238" duration="11550000" />
     </task>
+    <task id="LOCAL-00001" summary="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
+      <created>1612033346798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612033346798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping" />
+    <option name="LAST_COMMIT_MESSAGE" value="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping" />
   </component>
 </project>
