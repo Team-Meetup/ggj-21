@@ -6,7 +6,7 @@ public class FruitFalling : MonoBehaviour
 {
     public float speed = 10f;
     public Transform player;
-    float rand;
+    float _rand;
     public float minX, minY;
 
     // Update is called once per frame
@@ -16,8 +16,8 @@ public class FruitFalling : MonoBehaviour
 
         if (transform.position.y < player.position.y) 
         {
-            rand = Random.Range(minX, minY);
-            transform.position = new Vector3(rand, transform.position.y, transform.position.z);
+            _rand = Random.Range(minX, minY);
+            transform.position = new Vector3(_rand, transform.position.y, transform.position.z);
         }
     }
 
@@ -27,8 +27,8 @@ public class FruitFalling : MonoBehaviour
         {
             //health decrease;
             Debug.Log("Fruit crash player");
-            rand = Random.Range(minX, minY);
-            transform.position = new Vector3(rand, transform.position.y, transform.position.z);
+            _rand = Random.Range(minX, minY);
+            transform.position = new Vector3(_rand, transform.position.y, transform.position.z);
         }
     }
 }
