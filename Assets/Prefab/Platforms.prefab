@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3211279165824570909}
   m_Layer: 0
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -523,6 +523,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5940772585969551154, guid: 3c14aafe96ed13648908eb3740433f92,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c14aafe96ed13648908eb3740433f92, type: 3}
 --- !u!4 &2892322212045399353 stripped
@@ -547,6 +552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3002765621489359241, guid: 8b8f036585255ca4498becf00f74a58c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 3002765621489359247, guid: 8b8f036585255ca4498becf00f74a58c,
         type: 3}
@@ -682,6 +692,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868804679217711262, guid: 65025f1243da81643974c6996263e12e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65025f1243da81643974c6996263e12e, type: 3}
