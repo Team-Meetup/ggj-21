@@ -10,6 +10,8 @@ public class PopsicleController : MonoBehaviour
     private bool isJumping;
     private bool isFalling;
 
+    public int iceCount;
+
     [SerializeField]
     private float speed = 2;
     [SerializeField]
@@ -21,6 +23,7 @@ public class PopsicleController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         velocity = Vector2.zero;
         isJumping = false;
+        iceCount = 0;
     }
 
     // Update is called once per frame
