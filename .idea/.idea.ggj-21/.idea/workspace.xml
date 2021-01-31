@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="merge personal scene to main scene, add ice prefab, update platform prefabs">
+    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="add fruit prefab, update fruit prefab, update fruit falling script">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Prefab/Platform 2.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Prefab/ConfinerLimit.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
@@ -78,7 +79,7 @@
       <workItem from="1612015782112" duration="873000" />
       <workItem from="1612024643145" duration="780000" />
       <workItem from="1612025480238" duration="12507000" />
-      <workItem from="1612084986643" duration="4536000" />
+      <workItem from="1612084986643" duration="6270000" />
     </task>
     <task id="LOCAL-00001" summary="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
       <created>1612033346798</created>
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612089328900</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add fruit prefab, update fruit prefab, update fruit falling script">
+      <created>1612091203206</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612091203207</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +182,7 @@
     <MESSAGE value="create new popsicle with sprite, update ice collider to trigger, remove collectible object script" />
     <MESSAGE value="update cam confiner" />
     <MESSAGE value="merge personal scene to main scene, add ice prefab, update platform prefabs" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge personal scene to main scene, add ice prefab, update platform prefabs" />
+    <MESSAGE value="add fruit prefab, update fruit prefab, update fruit falling script" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fruit prefab, update fruit prefab, update fruit falling script" />
   </component>
 </project>
