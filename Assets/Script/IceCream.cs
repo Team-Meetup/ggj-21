@@ -10,7 +10,7 @@ public class IceCream : MonoBehaviour
 
     public Transform player;
 
-    public GameObject anaSahne, gameOver;
+    public GameObject anaSahne, gameOver, win;
 
     public int degree;
     public float pos;
@@ -32,6 +32,7 @@ public class IceCream : MonoBehaviour
         currentHealth = maxHealth;
         anaSahne.SetActive(true);
         gameOver.SetActive(false);
+        win.SetActive(false);
     }
 
     void Update()

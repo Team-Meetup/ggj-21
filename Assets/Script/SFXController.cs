@@ -21,36 +21,42 @@ public class SFXController : MonoBehaviour
     // element 0
     public void Walk()
     {
-        _audioSource[0].Play();
+        if(!_audioSource[0].isPlaying)
+            _audioSource[0].Play();
     }
 
     // element 1
     public void Jump()
     {
-        _audioSource[1].Play();
+        if(!_audioSource[1].isPlaying)
+          _audioSource[1].Play();
     }
 
     // element 2
     public void IceCubeHit()
     {
-        _audioSource[2].Play();
+        if(!_audioSource[2].isPlaying)
+          _audioSource[2].Play();
     }
 
     // element 3
     public void FruitHit()
     {
-        _audioSource[3].Play();
+        if(!_audioSource[3].isPlaying)
+           _audioSource[3].Play();
     }
     
     // element 4
     public void Win()
     {
-        _audioSource[4].Play();
+        if(!_audioSource[4].isPlaying)
+            _audioSource[4].Play();
     }
     
     // element 5
     public void Lose()
     {
-        _audioSource[5].Play();
+        if(!_audioSource[5].isPlaying)
+            _audioSource[5].Play();
     }
 }

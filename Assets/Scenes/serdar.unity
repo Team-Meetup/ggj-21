@@ -1219,6 +1219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1232883991}
   player: {fileID: 587319346}
+  anaSahne: {fileID: 0}
+  gameOver: {fileID: 0}
   degree: 0
   pos: 0
   maxHealth: 100
@@ -1313,11 +1315,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6523385377754755119, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: _sfxAudioSource
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
         type: 3}

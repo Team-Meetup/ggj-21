@@ -19,8 +19,6 @@ public class GameAudioStateManagerController : MonoBehaviour
     [SerializeField]
     private AudioSource _musicAudioSource;
 
-    [SerializeField]
-    private AudioSource _sfxAudioSource;
 
     private void Awake()
     {
@@ -48,10 +46,14 @@ public class GameAudioStateManagerController : MonoBehaviour
             case AudioState.Win:
                 if(_musicAudioSource.isPlaying)
                     _musicAudioSource.Stop();
+                
+                GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Win();
                 break;
             case AudioState.Lose:
                 if(_musicAudioSource.isPlaying)
                     _musicAudioSource.Stop();
+                
+                GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Lose();
                 break;
         }
     }
