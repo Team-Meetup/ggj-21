@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="add rider files" />
+    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="minor fix to fix cam position (width fits background) commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Ice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Popsicle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Popsicle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Popsicle.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Popsicle.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/CollectibleOjects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/CollectibleOjects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Script/FruitFalling.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -20,6 +29,7 @@
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleBottomController.cs" />
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/PlatformGeneration.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nnAehNtptRccvy914modqL77CL" />
@@ -66,6 +76,7 @@
       <workItem from="1612015782112" duration="873000" />
       <workItem from="1612024643145" duration="780000" />
       <workItem from="1612025480238" duration="12507000" />
+      <workItem from="1612084986643" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
       <created>1612033346798</created>
@@ -95,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612039623899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix cam position (width fits background)">
+      <created>1612085161146</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612085161146</updated>
+    </task>
+    <task id="LOCAL-00006" summary="minor fix to fix cam position (width fits background) commit">
+      <created>1612085226888</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612085226888</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +138,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -120,6 +146,8 @@
     <MESSAGE value="move files from personal workspace to team workspace" />
     <MESSAGE value="merge all team work into main scene" />
     <MESSAGE value="add rider files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rider files" />
+    <MESSAGE value="fix cam position (width fits background)" />
+    <MESSAGE value="minor fix to fix cam position (width fits background) commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix to fix cam position (width fits background) commit" />
   </component>
 </project>

@@ -14,9 +14,11 @@ public class PopsicleController : MonoBehaviour
     public int iceCount;
 
     [FormerlySerializedAs("_speed")] [SerializeField]
-    private float speed = 5;
+    private float speed;
     [FormerlySerializedAs("_jumpForce")] [SerializeField]
-    private float jumpForce = 400;
+    private float jumpForce;
+
+    [SerializeField] private float smoothTime;
 
     [SerializeField]
     private BoxCollider2D bottomCollider;
@@ -37,7 +39,7 @@ public class PopsicleController : MonoBehaviour
         _input.y = Input.GetAxisRaw("Vertical");
 
         Vector2 targetVelocity = new Vector2(_input.x * speed, _rb.velocity.y);
-        _rb.velocity = Vector2.SmoothDamp(_rb.velocity, targetVelocity, ref _velocity, .3f);
+        _rb.velocity = Vector2.SmoothDamp(_rb.velocity, targetVelocity, ref _velocity, smoothTime);
 
         Vector2 jumpVector = new Vector2(_input.x, _input.y * jumpForce);
 
@@ -84,7 +86,7 @@ public class PopsicleController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("IceCube"))
+        if (other.gameObject.CompareTag("Ice"))
         {
             Destroy(other.gameObject);
             iceCount++;
