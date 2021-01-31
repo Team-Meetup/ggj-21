@@ -8,6 +8,9 @@ TagManager:
   - VCamConfiner
   - IceCube
   - Ice
+  - AudioStateManager
+  - MusicAudioSource
+  - SFXAudioSource
   layers:
   - Default
   - TransparentFX

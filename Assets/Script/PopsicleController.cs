@@ -44,6 +44,10 @@ public class PopsicleController : MonoBehaviour
 
         Vector2 jumpVector = new Vector2(_input.x, _input.y * jumpForce);
 
+        if (_input.x > 0)
+        {
+           // GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Walk();
+        }
         if (isJumping)
         {
             jumpVector.y = 0;
@@ -53,6 +57,7 @@ public class PopsicleController : MonoBehaviour
             jumpVector.y = _input.y * jumpForce;
             isJumping = true;
             Debug.Log("false");
+            //PlayJumpSFX();
         }
         else
         {
@@ -100,6 +105,9 @@ public class PopsicleController : MonoBehaviour
         {
             Debug.Log("u lost");
             Invoke("GameOver", 0.5f);
+           // GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Lose();
+          //  GameObject.FindGameObjectWithTag("AudioStateManager").GetComponent<GameAudioStateManagerController>()
+         //       .audioState = GameAudioStateManagerController.AudioState.Lose;
         }
     }
 
@@ -108,4 +116,10 @@ public class PopsicleController : MonoBehaviour
         IceCream.instance.anaSahne.SetActive(false);
         IceCream.instance.gameOver.SetActive(true);
     }
+
+    private void PlayJumpSFX()
+    {
+//        GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Jump();
+    }
+
 }

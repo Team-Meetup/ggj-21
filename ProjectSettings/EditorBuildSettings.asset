@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/serdar.unity
+    guid: 76a865519ad97b74bb8593b0914881f9
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 266d65f32000bb343825763c96a0daba
