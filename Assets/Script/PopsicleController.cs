@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class PopsicleController : MonoBehaviour
 {
@@ -98,6 +99,13 @@ public class PopsicleController : MonoBehaviour
         if (other.gameObject.CompareTag("VCamConfiner"))
         {
             Debug.Log("u lost");
+            Invoke("GameOver", 0.5f);
         }
+    }
+
+    public void GameOver()
+    {
+        IceCream.instance.anaSahne.SetActive(false);
+        IceCream.instance.gameOver.SetActive(true);
     }
 }

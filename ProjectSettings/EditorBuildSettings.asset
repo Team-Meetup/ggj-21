@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 266d65f32000bb343825763c96a0daba
+  - enabled: 1
+    path: Assets/Scenes/Ana Sahne.unity
+    guid: 647f97008ccbdc64fbfacdb88296b390
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: cfeaaa368d9fe144b8f712d704761b3d
   m_configObjects: {}
