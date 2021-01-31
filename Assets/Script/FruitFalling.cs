@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class FruitFalling : MonoBehaviour
 {
@@ -22,13 +24,17 @@ public class FruitFalling : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.transform.tag == "Player")
+        if (other.transform.tag == "Player")
         {
             IceCream.instance.GetDamage(5);
             rand = Random.Range(minX, maxX);
             transform.position = new Vector3(rand, main.transform.position.y + 6, 0);
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
     }
 }
