@@ -397,7 +397,7 @@ MonoBehaviour:
   platformPrefabs: {fileID: 4497457310212286260, guid: 85c558311533f8d419ccc4552d09fa5a,
     type: 3}
   numberofPlatforms: 200
-  levelWidth: 7
+  levelWidth: 4
   minY: 5
   maxY: 5
 --- !u!1001 &717794667
@@ -1328,7 +1328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1232883991}
-  player: {fileID: 0}
+  player: {fileID: 717794668}
   degree: 0
   pos: 0
   maxHealth: 100
