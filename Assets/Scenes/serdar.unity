@@ -480,7 +480,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878054446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0010547638, y: 5.0989103, z: -10}
+  m_LocalPosition: {x: 0.0028982162, y: 5.0986176, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1195,35 +1195,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Popsicle
       objectReference: {fileID: 0}
-    - target: {fileID: 3741659447629586106, guid: 14752b16844134d4a96c2c5529fb15dd,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 3741659447629586108, guid: 14752b16844134d4a96c2c5529fb15dd,
         type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1232883991}
-    - target: {fileID: 3741659447629586109, guid: 14752b16844134d4a96c2c5529fb15dd,
-        type: 3}
-      propertyPath: smoothTime
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 3741659447629586110, guid: 14752b16844134d4a96c2c5529fb15dd,
         type: 3}
       propertyPath: m_RootOrder
       value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 3741659447629586110, guid: 14752b16844134d4a96c2c5529fb15dd,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3741659447629586110, guid: 14752b16844134d4a96c2c5529fb15dd,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3741659447629586110, guid: 14752b16844134d4a96c2c5529fb15dd,
         type: 3}
@@ -1284,16 +1264,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4393424912228724965, guid: 910c38c759bc0c14890cd69d5f0b7154,
-        type: 3}
-      propertyPath: m_DeadZoneWidth
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4393424912228724965, guid: 910c38c759bc0c14890cd69d5f0b7154,
-        type: 3}
-      propertyPath: m_SoftZoneWidth
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4393424912384569736, guid: 910c38c759bc0c14890cd69d5f0b7154,
         type: 3}
       propertyPath: m_BoundingShape2D
@@ -1437,46 +1407,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
-        type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].x
-      value: -18.093262
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
-        type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].y
-      value: 7.016222
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
-        type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
-      value: -18.073933
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
-        type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
-      value: -3.599374
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
-        type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
-      value: 18.10554
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
-        type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
-      value: -3.6018312
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
-        type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
-      value: 18.065556
-      objectReference: {fileID: 0}
-    - target: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
-        type: 3}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
-      value: 6.9943852
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6dd4e2994489fa47971063548d08c5a, type: 3}
