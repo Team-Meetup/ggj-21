@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ana Sahne.unity
     guid: 647f97008ccbdc64fbfacdb88296b390
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GameOver.unity
     guid: cfeaaa368d9fe144b8f712d704761b3d
   m_configObjects: {}
