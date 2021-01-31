@@ -19,9 +19,6 @@ public class GameAudioStateManagerController : MonoBehaviour
     [SerializeField]
     private AudioSource _musicAudioSource;
 
-    [SerializeField]
-    private AudioSource _sfxAudioSource;
-
     private void Awake()
     {
         

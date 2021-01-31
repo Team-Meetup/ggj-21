@@ -21,7 +21,8 @@ public class SFXController : MonoBehaviour
     // element 0
     public void Walk()
     {
-        _audioSource[0].Play();
+        if(!_audioSource[0].isPlaying)
+            _audioSource[0].Play();
     }
 
     // element 1

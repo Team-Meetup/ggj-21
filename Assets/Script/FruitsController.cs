@@ -23,7 +23,7 @@ public class FruitsController : MonoBehaviour
         if (other.transform.CompareTag("Player"))
         {
             Debug.Log("play fruit/pizza hit sfx");
-            //GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().FruitHit();
+            GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().FruitHit();
         }
     }
     
