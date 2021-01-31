@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="add sfx, fix sfx controller">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sound/lose.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sound/lose.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/AudioManager.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Background.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Background.prefab" afterDir="false" />
+    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="add win screen">
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameAudioStateManagerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameAudioStateManagerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/GameOverManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameOverManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/SFXController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/SFXController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +17,11 @@
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Prefab/ConfinerLimit.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Script/PopsicleController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SFXController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Script/PopsicleController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Menu.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Prefab/Platform 2.prefab" root0="SKIP_HIGHLIGHTING" />
@@ -38,6 +30,7 @@
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Script/PopsicleController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Prefab/Platform 2.prefab" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -54,6 +47,7 @@
       <option value="$PROJECT_DIR$/Assets/Script/GameAudioStateManagerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/GameOverManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/SFXController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/IceCream.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" />
     </changedPaths>
   </component>
@@ -109,7 +103,7 @@
       <workItem from="1612015782112" duration="873000" />
       <workItem from="1612024643145" duration="780000" />
       <workItem from="1612025480238" duration="12507000" />
-      <workItem from="1612084986643" duration="19178000" />
+      <workItem from="1612084986643" duration="21469000" />
     </task>
     <task id="LOCAL-00001" summary="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
       <created>1612033346798</created>
@@ -209,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612105504708</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="improve audio">
+      <created>1612107006498</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612107006498</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add win screen">
+      <created>1612107739117</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612107739117</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +253,8 @@
     <MESSAGE value="add sfx and music controllers and objects" />
     <MESSAGE value="fix ana sahne" />
     <MESSAGE value="add sfx, fix sfx controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sfx, fix sfx controller" />
+    <MESSAGE value="improve audio" />
+    <MESSAGE value="add win screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="add win screen" />
   </component>
 </project>
