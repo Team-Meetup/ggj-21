@@ -1444,11 +1444,6 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1734414338}
-    - target: {fileID: 4393424912384569743, guid: 910c38c759bc0c14890cd69d5f0b7154,
-        type: 3}
-      propertyPath: m_Lens.OrthographicSize
-      value: 5.15
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910c38c759bc0c14890cd69d5f0b7154, type: 3}
 --- !u!1001 &8574544581509431497
