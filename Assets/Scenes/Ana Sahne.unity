@@ -433,6 +433,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 79938141}
     m_Modifications:
+    - target: {fileID: 4393424912384569736, guid: 910c38c759bc0c14890cd69d5f0b7154,
+        type: 3}
+      propertyPath: m_BoundingShape2D
+      value: 
+      objectReference: {fileID: 663608609}
     - target: {fileID: 4393424912384569737, guid: 910c38c759bc0c14890cd69d5f0b7154,
         type: 3}
       propertyPath: m_Name
@@ -1196,6 +1201,12 @@ MonoBehaviour:
   levelWidth: 4
   minY: 5
   maxY: 5
+--- !u!60 &663608609 stripped
+PolygonCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8574544581568090713, guid: a6dd4e2994489fa47971063548d08c5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 8574544581509431497}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &692951098
 GameObject:
   m_ObjectHideFlags: 0
