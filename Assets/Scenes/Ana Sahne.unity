@@ -878,55 +878,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5186922318798004938, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186922318798004940, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186922319896081109, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186922319896081111, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186922319976802071, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186922319976802073, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186922319993174379, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186922319993174381, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5956949346104471724, guid: 2312cd1dba39e254c9a05953dae3d651,
         type: 3}
       propertyPath: m_Name
       value: Background
-      objectReference: {fileID: 0}
-    - target: {fileID: 5956949346104471724, guid: 2312cd1dba39e254c9a05953dae3d651,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2312cd1dba39e254c9a05953dae3d651, type: 3}
@@ -1100,103 +1055,6 @@ MonoBehaviour:
   levelWidth: 4
   minY: 5
   maxY: 5
---- !u!1001 &630918321
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400842956, guid: d4e95ce10f2efbb42975513a69e0d969, type: 3}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 749873782, guid: d4e95ce10f2efbb42975513a69e0d969, type: 3}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 763025121, guid: d4e95ce10f2efbb42975513a69e0d969, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 763025121, guid: d4e95ce10f2efbb42975513a69e0d969, type: 3}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 766025797, guid: d4e95ce10f2efbb42975513a69e0d969, type: 3}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1424026656, guid: d4e95ce10f2efbb42975513a69e0d969, type: 3}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1775829627, guid: d4e95ce10f2efbb42975513a69e0d969, type: 3}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1469488276315767455, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 487.67972
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 551.1467
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1060.3892
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7924785877805753985, guid: d4e95ce10f2efbb42975513a69e0d969,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d4e95ce10f2efbb42975513a69e0d969, type: 3}
 --- !u!4 &807494348 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4393424912384569742, guid: 910c38c759bc0c14890cd69d5f0b7154,

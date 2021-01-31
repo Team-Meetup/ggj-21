@@ -13,6 +13,8 @@ public class GameOverManager : MonoBehaviour
 
     public void Begin()
     {
+        GameObject.FindGameObjectWithTag("AudioStateManager").GetComponent<GameAudioStateManagerController>()
+            .audioState = GameAudioStateManagerController.AudioState.Playing;
         SceneManager.LoadScene("Ana Sahne");
     }
 
