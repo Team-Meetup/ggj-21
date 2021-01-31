@@ -73,6 +73,8 @@ public class IceCream : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            currentHealth = 0;
+            healthBar.fillAmount = currentHealth;
             StartCoroutine(GameOver());
         }
     }
@@ -80,6 +82,8 @@ public class IceCream : MonoBehaviour
     IEnumerator GameOver()
     {
         yield return new WaitForSeconds(0.2f);
+        Debug.Log("GameOver");
+        Time.timeScale = 0;
         //SceneManager.LoadScene("GameOver");
     }
 }
