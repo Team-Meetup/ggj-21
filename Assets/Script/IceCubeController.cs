@@ -22,7 +22,7 @@ public class IceCubeController : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<PopsicleController>().iceCount++;
-            GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().IceCubeHit();
+            //GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().IceCubeHit();
             Destroy(gameObject);
         }
     }

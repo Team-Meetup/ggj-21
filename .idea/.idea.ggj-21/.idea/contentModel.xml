@@ -13,6 +13,7 @@
           <e p="FruitFalling.cs" t="Include" />
           <e p="FruitsController.cs" t="Include" />
           <e p="GameAudioStateManagerController.cs" t="Include" />
+          <e p="GameOverManager.cs" t="Include" />
           <e p="IceCream.cs" t="Include" />
           <e p="IceCubeController.cs" t="Include" />
           <e p="IceGenerator.cs" t="Include" />
