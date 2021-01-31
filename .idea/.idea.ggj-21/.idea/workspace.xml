@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="move files from personal workspace to team workspace">
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Characters.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/CM vcam1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/CM vcam1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="add rider files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Script/FruitFalling.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -69,7 +65,7 @@
       <workItem from="1612015601309" duration="134000" />
       <workItem from="1612015782112" duration="873000" />
       <workItem from="1612024643145" duration="780000" />
-      <workItem from="1612025480238" duration="12303000" />
+      <workItem from="1612025480238" duration="12507000" />
     </task>
     <task id="LOCAL-00001" summary="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
       <created>1612033346798</created>
@@ -85,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612038878963</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="merge all team work into main scene">
+      <created>1612039594054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612039594054</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add rider files">
+      <created>1612039623899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612039623899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +118,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping" />
     <MESSAGE value="move files from personal workspace to team workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="move files from personal workspace to team workspace" />
+    <MESSAGE value="merge all team work into main scene" />
+    <MESSAGE value="add rider files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rider files" />
   </component>
 </project>
