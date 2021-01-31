@@ -11,6 +11,7 @@ public class PopsicleController : MonoBehaviour
     private Rigidbody2D _rb;
     private Vector2 _velocity;
     public bool isJumping;
+    private bool isWon = false;
 
     public int iceCount;
 
@@ -97,25 +98,30 @@ public class PopsicleController : MonoBehaviour
             Destroy(other.gameObject);
             iceCount++;
         }
+
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            Invoke("Win", 0.5f);
+            _rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Win();
+            GameObject.FindGameObjectWithTag("AudioStateManager").GetComponent<GameAudioStateManagerController>()
+                .audioState = GameAudioStateManagerController.AudioState.Win;
+            isWon = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("VCamConfiner"))
         {
-            Debug.Log("u lost");
-            Invoke("GameOver", 0.5f);
-            GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Lose();
-            GameObject.FindGameObjectWithTag("AudioStateManager").GetComponent<GameAudioStateManagerController>()
-                .audioState = GameAudioStateManagerController.AudioState.Lose;
-        }
-
-        if (other.gameObject.CompareTag("Finish"))
-        {
-            Invoke("Win", 0.5f);
-            GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Win();
-            GameObject.FindGameObjectWithTag("AudioStateManager").GetComponent<GameAudioStateManagerController>()
-                .audioState = GameAudioStateManagerController.AudioState.Win;
+            if(!isWon)
+            {
+                Debug.Log("u lost");
+                Invoke("GameOver", 0.5f);
+                GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Lose();
+                GameObject.FindGameObjectWithTag("AudioStateManager").GetComponent<GameAudioStateManagerController>()
+                    .audioState = GameAudioStateManagerController.AudioState.Lose;
+            }
         }
     }
 
@@ -123,7 +129,6 @@ public class PopsicleController : MonoBehaviour
     {
         IceCream.instance.anaSahne.SetActive(false);
         IceCream.instance.win.SetActive(true);
-        // insert win
     }
     
     public void GameOver()
