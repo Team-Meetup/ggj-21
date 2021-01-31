@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="add fruit prefab, update fruit prefab, update fruit falling script">
+    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="add main menu, win, game over scene and update main scene">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Fruits.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Fruits.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ice Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Ice Cube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/serdar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/serdar.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/serdar.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/serdar.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Cube (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Cube (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Serdar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Serdar.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Serdar.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Serdar/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/Serdar/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/popsicle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Serdar/popsicle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +37,9 @@
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Prefab/ConfinerLimit.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/DontDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SFXController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Prefab/Platform 2.prefab" root0="SKIP_HIGHLIGHTING" />
@@ -31,8 +51,13 @@
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleBottomController.cs" />
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/PlatformGeneration.cs" />
-      <option value="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/DontDestroy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/GameAudioStateManagerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/IceCubeController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/FruitsController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/SFXController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nnAehNtptRccvy914modqL77CL" />
@@ -79,7 +104,7 @@
       <workItem from="1612015782112" duration="873000" />
       <workItem from="1612024643145" duration="780000" />
       <workItem from="1612025480238" duration="12507000" />
-      <workItem from="1612084986643" duration="6270000" />
+      <workItem from="1612084986643" duration="14169000" />
     </task>
     <task id="LOCAL-00001" summary="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
       <created>1612033346798</created>
@@ -151,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612091203207</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add main menu, win, game over scene and update main scene">
+      <created>1612093883878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612093883878</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +215,7 @@
     <MESSAGE value="update cam confiner" />
     <MESSAGE value="merge personal scene to main scene, add ice prefab, update platform prefabs" />
     <MESSAGE value="add fruit prefab, update fruit prefab, update fruit falling script" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fruit prefab, update fruit prefab, update fruit falling script" />
+    <MESSAGE value="add main menu, win, game over scene and update main scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="add main menu, win, game over scene and update main scene" />
   </component>
 </project>
