@@ -112,18 +112,24 @@ public class PopsicleController : MonoBehaviour
 
         if (other.gameObject.CompareTag("Finish"))
         {
-            Invoke("GameOver", 0.5f);
+            Invoke("Win", 0.5f);
             GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Win();
             GameObject.FindGameObjectWithTag("AudioStateManager").GetComponent<GameAudioStateManagerController>()
                 .audioState = GameAudioStateManagerController.AudioState.Win;
         }
     }
 
+    public void Win()
+    {
+        IceCream.instance.anaSahne.SetActive(false);
+        IceCream.instance.win.SetActive(true);
+        // insert win
+    }
+    
     public void GameOver()
     {
         IceCream.instance.anaSahne.SetActive(false);
         IceCream.instance.gameOver.SetActive(true);
-        // insert win
     }
 
     private void PlayJumpSFX()
