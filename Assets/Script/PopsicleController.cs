@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class PopsicleController : MonoBehaviour
 {
@@ -88,15 +89,32 @@ public class PopsicleController : MonoBehaviour
         }
         
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ice"))
+        {
+            Destroy(other.gameObject);
+            iceCount++;
+        }
+    }
+
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("VCamConfiner"))
         {
             Debug.Log("u lost");
+            Invoke("GameOver", 0.5f);
             GameObject.FindGameObjectWithTag("SFXAudioSource").GetComponent<SFXController>().Lose();
             GameObject.FindGameObjectWithTag("AudioStateManager").GetComponent<GameAudioStateManagerController>()
                 .audioState = GameAudioStateManagerController.AudioState.Lose;
         }
+    }
+
+    public void GameOver()
+    {
+        IceCream.instance.anaSahne.SetActive(false);
+        IceCream.instance.gameOver.SetActive(true);
     }
 
     private void PlayJumpSFX()

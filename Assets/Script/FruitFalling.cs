@@ -28,14 +28,10 @@ public class FruitFalling : MonoBehaviour
     {
         if (other.transform.CompareTag("Player"))
         {
-            IceCream.instance.GetDamage(5);
+            IceCream.instance.GetDamage(3);
             rand = Random.Range(minX, maxX);
             transform.position = new Vector3(rand, main.transform.position.y + 6, 0);
         }
         gameObject.transform.parent.GetComponent<FruitsController>().OnTriggerEnter2DChild(other);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
     }
 }

@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class IceCream : MonoBehaviour
 {
     public Image healthBar;
 
     public Transform player;
+
+    public GameObject anaSahne, gameOver;
 
     public int degree;
     public float pos;
@@ -27,6 +30,8 @@ public class IceCream : MonoBehaviour
     {
         pos = player.position.y;
         currentHealth = maxHealth;
+        anaSahne.SetActive(true);
+        gameOver.SetActive(false);
     }
 
     void Update()
@@ -81,9 +86,8 @@ public class IceCream : MonoBehaviour
 
     IEnumerator GameOver()
     {
-        yield return new WaitForSeconds(0.2f);
-        Debug.Log("GameOver");
-        Time.timeScale = 0;
-        //SceneManager.LoadScene("GameOver");
+        yield return new WaitForSeconds(0.5f);
+        anaSahne.SetActive(false);
+        gameOver.SetActive(true);
     }
 }
