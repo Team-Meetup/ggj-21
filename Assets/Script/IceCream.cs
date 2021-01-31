@@ -31,40 +31,34 @@ public class IceCream : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            currentHealth -= 5;
-            healthBar.fillAmount = currentHealth / maxHealth;
-        }
-
         if (pos <= 100)
         {
             degree = 100;
-            GetDamage(20);
+            GetDamage(0.01f);
         }
 
         if (pos > 100 && pos <= 300)
         {
             degree = 70;
-            GetDamage(15);
+            GetDamage(0.1f);
         }
 
         if (pos > 300 && pos <= 500)
         {
             degree = 40;
-            GetDamage(10);
+            GetDamage(0.05f);
         }
 
         if (pos > 500 && pos <= 700)
         {
             degree = 10;
-            GetDamage(5);
+            GetDamage(0.03f);
         }
 
         if (pos > 700 && pos <= 1000)
         {
             degree = -20;
-            currentHealth += 20;
+            currentHealth += 5;
             healthBar.fillAmount = currentHealth / maxHealth;
         }
     }

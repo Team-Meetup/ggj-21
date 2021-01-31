@@ -15,6 +15,7 @@ public class CollectibleOjects : MonoBehaviour
             Debug.Log("Crash ice");
             iceCount++;
             iceText.text = iceCount.ToString();
+            Destroy(collision.gameObject);
         }
     }
 }
