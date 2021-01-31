@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="update cam confiner">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/CM vcam1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/CM vcam1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Popsicle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Popsicle.prefab" afterDir="false" />
+    <list default="true" id="ff1c384d-cd71-459a-b4b7-d38e6af42411" name="Default Changelist" comment="merge personal scene to main scene, add ice prefab, update platform prefabs">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj-21/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ana Sahne.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/serdar.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/serdar.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Prefab/Platform 2.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/msoyg/OneDrive/Desktop/ÜNOG GGJ 2021/ggj-21/Assets/Scenes/Ana Sahne.unity" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -31,6 +31,7 @@
       <option value="$PROJECT_DIR$/Assets/Serdar/PopsicleController.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/PlatformGeneration.cs" />
       <option value="$PROJECT_DIR$/Assets/Script/PopsicleController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Script/FruitFalling.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nnAehNtptRccvy914modqL77CL" />
@@ -77,7 +78,7 @@
       <workItem from="1612015782112" duration="873000" />
       <workItem from="1612024643145" duration="780000" />
       <workItem from="1612025480238" duration="12507000" />
-      <workItem from="1612084986643" duration="3415000" />
+      <workItem from="1612084986643" duration="4536000" />
     </task>
     <task id="LOCAL-00001" summary="add cinemachine confiner, popsicle prefab, popsicle bottom controller and improve jumping">
       <created>1612033346798</created>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612088338494</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="merge personal scene to main scene, add ice prefab, update platform prefabs">
+      <created>1612089328900</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612089328900</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +173,7 @@
     <MESSAGE value="minor fix to fix cam position (width fits background) commit" />
     <MESSAGE value="create new popsicle with sprite, update ice collider to trigger, remove collectible object script" />
     <MESSAGE value="update cam confiner" />
-    <option name="LAST_COMMIT_MESSAGE" value="update cam confiner" />
+    <MESSAGE value="merge personal scene to main scene, add ice prefab, update platform prefabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge personal scene to main scene, add ice prefab, update platform prefabs" />
   </component>
 </project>
