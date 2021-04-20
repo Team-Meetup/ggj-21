@@ -1,4 +1,4 @@
-# ggj-21
+# Milky Way
 
 Our submission to Global Game Jam 2021
 
